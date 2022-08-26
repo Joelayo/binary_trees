@@ -58,5 +58,6 @@ binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 int _pow_recursion(int x, int y);
+void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
 
 #endif

@@ -49,4 +49,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 void binary_tree_print(const binary_tree_t *tree);
 
+int _pow_recursion(int x, int y);
+
 #endif
